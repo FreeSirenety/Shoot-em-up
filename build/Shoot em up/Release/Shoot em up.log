@@ -1,0 +1,40 @@
+﻿Build started 2013-12-22 13:09:56.
+     1>Project "C:\Users\Oliver Bolt\Desktop\Programmering skola\Projekt\Spelprojekt Spelprogrammering 1\Shoot em up\Shoot em up\Shoot em up.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../deps/sdl2/include /I../deps/sdl2_image/include /I../deps/sdl2_mixer/include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"../build/Shoot em up/Release/" /Fd"../build/Shoot em up/Release/vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AnimatedSprite.cpp Collider.cpp DrawManager.cpp Game.cpp GameObject.cpp main.cpp SceneNode.cpp Sprite.cpp SpriteManager.cpp Vector2.cpp
+         AnimatedSprite.cpp
+         Collider.cpp
+     1>Collider.cpp(18): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         DrawManager.cpp
+     1>DrawManager.cpp(58): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         Game.cpp
+     1>Game.cpp(49): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Game.cpp(59): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Game.cpp(60): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Game.cpp(65): warning C4305: '+=' : truncation from 'double' to 'float'
+         GameObject.cpp
+     1>GameObject.cpp(141): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+         SceneNode.cpp
+         Sprite.cpp
+         SpriteManager.cpp
+         Vector2.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin/Shoot em up_x86.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../deps/sdl2/lib/x86 /LIBPATH:../deps/sdl2_image/lib/x86 /LIBPATH:../deps/sdl2_mixer/lib/x86 sdl2_image.lib sdl2_mixer.lib sdl2.lib sdl2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../bin/Shoot em up_x86.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../bin/Shoot em up_x86.lib" /MACHINE:X86 /SAFESEH "../build/Shoot em up/Release/AnimatedSprite.obj"
+         "../build/Shoot em up/Release/Collider.obj"
+         "../build/Shoot em up/Release/DrawManager.obj"
+         "../build/Shoot em up/Release/Game.obj"
+         "../build/Shoot em up/Release/GameObject.obj"
+         "../build/Shoot em up/Release/main.obj"
+         "../build/Shoot em up/Release/SceneNode.obj"
+         "../build/Shoot em up/Release/Sprite.obj"
+         "../build/Shoot em up/Release/SpriteManager.obj"
+         "../build/Shoot em up/Release/Vector2.obj"
+         Generating code
+         Finished generating code
+         Shoot em up.vcxproj -> C:\Users\Oliver Bolt\Desktop\Programmering skola\Projekt\Spelprojekt Spelprogrammering 1\Shoot em up\Shoot em up\../bin/Shoot em up_x86.exe
+     1>Done Building Project "C:\Users\Oliver Bolt\Desktop\Programmering skola\Projekt\Spelprojekt Spelprogrammering 1\Shoot em up\Shoot em up\Shoot em up.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.17

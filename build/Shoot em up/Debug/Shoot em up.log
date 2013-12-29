@@ -1,0 +1,38 @@
+﻿Build started 2013-12-29 13:52:56.
+     1>Project "C:\Users\Oliver Bolt\Desktop\Programmering skola\Projekt\Spelprojekt Spelprogrammering 1\Shoot em up\Shoot em up\Shoot em up.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../deps/sdl2/include /I../deps/sdl2_image/include /I../deps/sdl2_mixer/include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"../build/Shoot em up/Debug/" /Fd"../build/Shoot em up/Debug/vc110.pdb" /Gd /TP /analyze- /errorReport:prompt MovementPattern.cpp
+         MovementPattern.cpp
+     1>c:\users\oliver bolt\desktop\programmering skola\projekt\spelprojekt spelprogrammering 1\shoot em up\shoot em up\movementpattern.cpp(41): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\oliver bolt\desktop\programmering skola\projekt\spelprojekt spelprogrammering 1\shoot em up\shoot em up\movementpattern.cpp(81): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\oliver bolt\desktop\programmering skola\projekt\spelprojekt spelprogrammering 1\shoot em up\shoot em up\movementpattern.cpp(84): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\oliver bolt\desktop\programmering skola\projekt\spelprojekt spelprogrammering 1\shoot em up\shoot em up\movementpattern.cpp(85): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\oliver bolt\desktop\programmering skola\projekt\spelprojekt spelprogrammering 1\shoot em up\shoot em up\movementpattern.cpp(32): warning C4715: 'MovementPattern::move' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin/Shoot em up_x86d.exe" /INCREMENTAL /NOLOGO /LIBPATH:../deps/sdl2/lib/x86 /LIBPATH:../deps/sdl2_image/lib/x86 /LIBPATH:../deps/sdl2_mixer/lib/x86 sdl2_image.lib sdl2_mixer.lib sdl2.lib sdl2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../bin/Shoot em up_x86d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../bin/Shoot em up_x86d.lib" /MACHINE:X86 "../build/Shoot em up/Debug/AnimatedSprite.obj"
+         "../build/Shoot em up/Debug/Button.obj"
+         "../build/Shoot em up/Debug/Collider.obj"
+         "../build/Shoot em up/Debug/DrawManager.obj"
+         "../build/Shoot em up/Debug/Enemy.obj"
+         "../build/Shoot em up/Debug/Entity.obj"
+         "../build/Shoot em up/Debug/Game.obj"
+         "../build/Shoot em up/Debug/GameObject.obj"
+         "../build/Shoot em up/Debug/GameState.obj"
+         "../build/Shoot em up/Debug/InputHandler.obj"
+         "../build/Shoot em up/Debug/KeyboardInput.obj"
+         "../build/Shoot em up/Debug/main.obj"
+         "../build/Shoot em up/Debug/MenuState.obj"
+         "../build/Shoot em up/Debug/MouseInput.obj"
+         "../build/Shoot em up/Debug/MovementPattern.obj"
+         "../build/Shoot em up/Debug/Player.obj"
+         "../build/Shoot em up/Debug/Sprite.obj"
+         "../build/Shoot em up/Debug/SpriteManager.obj"
+         "../build/Shoot em up/Debug/State.obj"
+         "../build/Shoot em up/Debug/StateManager.obj"
+         "../build/Shoot em up/Debug/Vector2.obj"
+         Shoot em up.vcxproj -> C:\Users\Oliver Bolt\Desktop\Programmering skola\Projekt\Spelprojekt Spelprogrammering 1\Shoot em up\Shoot em up\../bin/Shoot em up_x86d.exe
+     1>Done Building Project "C:\Users\Oliver Bolt\Desktop\Programmering skola\Projekt\Spelprojekt Spelprogrammering 1\Shoot em up\Shoot em up\Shoot em up.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.95
